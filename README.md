@@ -113,6 +113,7 @@ revocation endpoints with no other integration. Watch this repository (Releases)
 | `AT_A_GLANCE.md`, `FAQ.md` | one-page summary, and how AI Passport relates to other work | draft |
 | `VERSIONING.md` | how versions are numbered and what never changes | draft |
 | `CONTRIBUTING.md`, `SECURITY.md`, `CHANGELOG.md` | project process | draft |
+| `AGENTS.md`, `llms.txt` | instructions for coding agents, and an index of the docs for language models | draft |
 
 Planned: JSON Schemas and an OpenAPI description of the revocation check.
 

@@ -1,0 +1,27 @@
+# AI Passport
+
+> Open specifications for AI agents and other AI assets: a signed AI Passport that carries an asset's business context (who answers for it, where it sits in the organisation, who built it, its risk classification and purpose), and a revocation check, one HTTP call that any gateway or policy engine can enforce. Unable to ask means deny. Open draft 1.0-draft.1, with a conformance suite.
+
+Start with section 1 of each specification. Instructions for coding agents are in AGENTS.md.
+
+## Specifications
+
+- [AI Passport v1](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/spec/passport-v1.md): the signed document, its bindings and business context, and how a verifier checks it
+- [AI Passport Revocation Check v1](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/spec/revocation-check-v1.md): `GET /revocation?subject=…`, and what each answer means
+
+## Implementing
+
+- [Instructions for coding agents](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/AGENTS.md): what to read first, commands, and the rules implementations get wrong
+- [Gateway example](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/conformance/examples/gateway_check.py): the core of a gateway's check in about 50 lines
+- [Conformance suite](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/conformance/README.md): how to run the test vectors against an implementation through an adapter
+
+## Background
+
+- [README](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/README.md): the problem, how it works, and who is behind it
+- [FAQ](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/FAQ.md): how AI Passport relates to JWT, OAuth, SPIFFE, Verifiable Credentials, status lists, CAEP and policy engines
+
+## Optional
+
+- [At a glance](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/AT_A_GLANCE.md): one-page summary
+- [Versioning](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/VERSIONING.md): how versions change and what never changes
+- [Licences](https://raw.githubusercontent.com/ServiceNow/ai-passport/main/LICENSE.md): Community Specification License 1.0 for the specifications, Apache 2.0 for code and test data

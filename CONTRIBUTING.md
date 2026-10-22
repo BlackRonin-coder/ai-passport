@@ -17,5 +17,4 @@ By contributing, you agree that:
 - contributions to code and test data in `conformance/` are made under the Apache License
   2.0 ([conformance/LICENSE](conformance/LICENSE)).
 
-See [LICENSE.md](LICENSE.md). A contributor licence agreement check will be enabled before
-publication.
+See [LICENSE.md](LICENSE.md).
