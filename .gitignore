@@ -1,0 +1,4 @@
+# Signing keys for the test vectors are never committed
+.keys/
+*.jwk
+__pycache__/
