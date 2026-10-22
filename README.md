@@ -93,8 +93,8 @@ decides to revoke, is out of scope and stays in each implementation.
 
 AI Passport is drafted by the AI Platform Security team at ServiceNow and published under
 an open licence, so that anyone can issue and verify Passports. The `purpose` vocabulary
-started from the AI asset classification in ServiceNow AI Control Tower. It is maintained
-here and changes only as [GOVERNANCE.md](GOVERNANCE.md) describes. We want other issuers
+started from the AI asset classification in ServiceNow Super Intelligence Control Tower. It
+is maintained here and changes only as [GOVERNANCE.md](GOVERNANCE.md) describes. We want other issuers
 and verifiers to try it: open an issue with what works and what does not.
 
 ServiceNow is building an issuer for AI Passports. When it becomes available, any gateway or
